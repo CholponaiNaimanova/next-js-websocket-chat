@@ -1,0 +1,49 @@
+.chats{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    .chat{
+        margin: 40px;
+        width: 470px;
+        height: 640px;
+        border: 2px solid rgba(0, 0, 0, 0.409);
+        border-radius: 12px;
+        .users{
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 20px 0 0 25px; 
+                img{
+                    border-radius: 50%;
+                }
+                h2{
+                    font-size: 18px;
+                    color: rgba(0, 0, 0, 0.612);
+                }
+            }
+        }   
+    
+        .message{
+            padding: 20px 0 0 25px;
+            h1{
+                font-size: 30px;
+                color: #329A93;
+            }
+            img{
+                border-radius: 50%;
+            }
+            .text{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .textTwo{
+                    p{
+                        color: #329A93;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
